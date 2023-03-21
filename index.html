@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <h3 class="header__cv">
+            <a
+              href="https://www.dropbox.com/s/wqz4mjlh0dohogz/dmitry.isachenko.frontend.pdf?dl=1"
+              class="header__cv-link"
+              >{My CV}</a
+            >
+          </h3>
+          <ul class="header__menu">
+            <li class="header__menu-item"><a href="#home">Home</a></li>
+            <li class="header__menu-item"><a href="#main">About</a></li>
+            <li class="header__menu-item">
+              <a href="#tech-stack">Tech Stack</a>
+            </li>
+            <li class="header__menu-item"><a href="#projects">Projects</a></li>
+            <li class="header__menu-item"><a href="#contact">Contact</a></li>
+            <li class="header__menu-item header__menu-item--withLinks">
+              <a href="https://github.com/Dmis0474" class="header__menu-link">
+                <img
+                  src="./images/github.svg"
+                  alt="github"
+                  class="header__menu-img"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/dmitry-isachenko-783396244/"
+                class="header__menu-link"
+              >
+                <img
+                  src="./images/link.svg"
+                  alt="linkedin"
+                  class="header__menu-img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about-description">
+              <h1 class="about__header">
+                <span class="about__header-animation"> Hi </span>
+                👋
+                <span class="about__header-animation">, <br />My name is</span>
+                <br /><span class="about__header-name">
+                  <span class="about__header-animation"
+                    >Dmitry Isachenko</span
+                  ></span
+                >
+                <br />
+                <span class="about__header-animation"
+                  >I build things for web</span
+                >
+              </h1>
+            </div>
+            <div class="about__img-wrapper">
+              <img src="./images/Ava.jpg" alt="ava" class="about__img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="technologies" id="tech-stack">
+        <div class="container">
+          <div class="technologies__inner">
+            <h2 class="technologies__header">
+              <span class="about__header-animation">My Tech Stack</span>
+            </h2>
+            <p class="technologies__description">
+              Technologies I’ve been working with recently
+            </p>
+            <ul class="technologies__items">
+              <li class="technologies__item">
+                <img
+                  src="./images/html5.svg"
+                  alt="html5"
+                  class="technologies__item-image"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/css.svg"
+                  alt="css3"
+                  class="technologies__item-image"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/js.svg"
+                  alt="js"
+                  class="technologies__item-image technologies__item-image--js-ps"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/react.svg"
+                  alt="react"
+                  class="technologies__item-image technologies__item-image--react-redux"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/redux.svg"
+                  alt="redux"
+                  class="technologies__item-image technologies__item-image--react-redux"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/git.svg"
+                  alt="git"
+                  class="technologies__item-image"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/gulp.svg"
+                  alt="gulp"
+                  class="technologies__item-image technologies__item-image--gulp"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/sass.svg"
+                  alt="sass"
+                  class="technologies__item-image"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/figma.svg"
+                  alt="figma"
+                  class="technologies__item-image"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/photoshop.svg"
+                  alt="photoshop"
+                  class="technologies__item-image technologies__item-image--js-ps"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/vscode.svg"
+                  alt="vs"
+                  class="technologies__item-image"
+                />
+              </li>
+              <li class="technologies__item">
+                <img
+                  src="./images/github.svg"
+                  alt="github"
+                  class="technologies__item-image"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="projects__inner">
+            <h2 class="projects__header">
+              <span class="about__header-animation">Projects</span>
+            </h2>
+            <p class="projects__description">Things I’ve built so far</p>
+            <ul class="projects__cards">
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_1.png"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">NFT marketplace main page</h3>
+                  <p class="card__description">
+                    Project is adaptive main page for NFT marketplace with two
+                    sliders, and hidden sidebars. Gulp was used for assembly.
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML, SCSS, JavaScript, Gulp
+                  </p>
+                  <div class="card__links">
+                    <a
+                      href="https://dmis0474.github.io/NFT-market-place_only-public/#"
+                      class="card__link card__link--http"
+                      target="_blank"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a
+                      href="https://github.com/Dmis0474/NFT-MarketPlace"
+                      class="card__link card__link--git"
+                      target="_blank"
+                      ><span class="about__header-animation">View Code</span></a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_2.png"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_3.png"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_4.png"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_5.png"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_6.png"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_7.jpg"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_8.jpg"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="projects__card">
+                <img
+                  src="./images/cadrs-imgs/card_9.jpg"
+                  alt="card1-bg"
+                  class="card__img"
+                />
+                <div class="card__inner">
+                  <h3 class="card__header">Project Name goes</h3>
+                  <p class="card__description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cumque voluptatibus corrupti impedit quas a culpa rerum nemo
+                  </p>
+                  <p class="card__stack">
+                    Tech stack : HTML , JavaScript, SASS, React
+                  </p>
+                  <div class="card__links">
+                    <a href="" class="card__link card__link--http"
+                      ><span class="about__header-animation">Live Preview</span></a
+                    >
+                    <a href="" class="card__link card__link--git"><span class="about__header-animation">View Code</span></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="header__inner footer__inner">
+            <h3 class="header__cv footer__cv">
+              <a
+                href="https://www.dropbox.com/s/wqz4mjlh0dohogz/dmitry.isachenko.frontend.pdf?dl=1"
+                class="header__cv-link footer__cv-link"
+                >{My CV}</a
+              >
+            </h3>
+            <ul class="header__menu footer__menu">
+              <li class="header__menu-item footer__menu-item">+995595016293</li>
+              <li class="header__menu-item footer__menu-item">t.me/Di0701</li>
+              <li class="header__menu-item footer__menu-item">
+                Dmis0474@gmail.com
+              </li>
+
+              <li
+                class="header__menu-item footer__menu-item header__menu-item--withLinks"
+              >
+                <a
+                  href="https://github.com/Dmis0474"
+                  class="header__menu-link footer__menu-link"
+                >
+                  <img
+                    src="./images/github.svg"
+                    alt="github"
+                    class="header__menu-img footer__menu-img"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/dmitry-isachenko-783396244/"
+                  class="header__menu-link footer__menu-link"
+                >
+                  <img
+                    src="./images/link.svg"
+                    alt="linkedin"
+                    class="header__menu-img footer__menu-img"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
